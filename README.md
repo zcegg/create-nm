@@ -67,11 +67,11 @@ $ create-nm <project>
 [downloads-url]: https://npmjs.org/package/@zce/create-nm
 [version-img]: https://img.shields.io/npm/v/@zce/create-nm
 [version-url]: https://npmjs.org/package/@zce/create-nm
-[license-img]: https://img.shields.io/github/license/zce/@zce/create-nm
-[license-url]: https://github.com/zce/@zce/create-nm/blob/master/LICENSE
-[dependency-img]: https://img.shields.io/david/zce/@zce/create-nm
-[dependency-url]: https://david-dm.org/zce/@zce/create-nm
-[devdependency-img]: https://img.shields.io/david/dev/zce/@zce/create-nm
-[devdependency-url]: https://david-dm.org/zce/@zce/create-nm?type=dev
+[license-img]: https://img.shields.io/github/license/zce/create-nm
+[license-url]: https://github.com/zce/create-nm/blob/master/LICENSE
+[dependency-img]: https://img.shields.io/david/zce/create-nm
+[dependency-url]: https://david-dm.org/zce/create-nm
+[devdependency-img]: https://img.shields.io/david/dev/zce/create-nm
+[devdependency-url]: https://david-dm.org/zce/create-nm?type=dev
 [style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
 [style-url]: https://standardjs.com
