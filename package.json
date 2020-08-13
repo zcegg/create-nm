@@ -1,0 +1,47 @@
+{
+  "name": "@zce/create-nm",
+  "version": "0.1.0",
+  "description": "A scaffolding tool for generating node modules.",
+  "keywords": [
+    "@zce/create-nm",
+    "cli",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/@zce/create-nm#readme",
+  "bugs": {
+    "url": "https://github.com/zce/@zce/create-nm/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/@zce/create-nm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/@zce/create-nm.git"
+  },
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {
+    "cac": "^6.6.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
