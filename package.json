@@ -1,7 +1,6 @@
 {
   "name": "@zce/create-nm",
   "version": "0.1.0",
-  "private": true,
   "description": "A scaffolding tools for creating node modules.",
   "keywords": [
     "module",
@@ -49,5 +48,8 @@
   "devDependencies": {
     "jest": "26.4.0",
     "standard": "14.3.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
