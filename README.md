@@ -43,8 +43,8 @@ $ create-nm <project>
 
 ## Related
 
-- [zce/caz] - A simple yet powerful template-based Scaffolding tools.
-- [caz-templates/nm] - A template for creating node modules.
+- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools.
+- [caz-templates/nm](https://github.com/caz-templates/nm) - A template for creating node modules.
 
 ## Contributing
 
