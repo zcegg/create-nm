@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0] - 2020-08-13
+## [<%= version %>] - <%= year %>-<%= month %>-<%= day %>
 
 - Initial release
 

@@ -9,52 +9,24 @@
 
 > A scaffolding tool for generating node modules.
 
-## Installation
-
-```shell
-$ npm install @zce/create-nm
-
-# or yarn
-$ yarn add @zce/create-nm
-```
-
 ## Usage
 
-<!-- TODO: Introduction of Usage -->
+Use npm:
 
-```javascript
-const zceCreateNm = require('@zce/create-nm')
-const result = zceCreateNm('w')
-// result => 'w@zce.me'
+```shell
+$ npm init @zce/nm <project>
 ```
 
-## API
+Use yarn:
 
-<!-- TODO: Introduction of API -->
-
-### zceCreateNm(input, options?)
-
-#### input
-
-- Type: `string`
-- Details: name string
-
-#### options
-
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
-
-## CLI Usage
-
-<!-- TODO: Introduction of CLI -->
+```shell
+$ yarn create @zce/nm <project>
+```
 
 Use npx:
 
 ```shell
-$ npx @zce/create-nm <input> [options]
+$ npx @zce/create-nm <project>
 ```
 
 Globally install:
@@ -66,26 +38,13 @@ $ yarn global add @zce/create-nm
 ```
 
 ```shell
-$ @zce/create-nm --help
-demo v0.1.0
-
-Usage:
-  $ @zce/create-nm <input>
-
-Commands:
-  <input>  Sample cli program
-
-For more info, run any command with the `--help` flag:
-  $ @zce/create-nm --help
-
-Options:
-  --host <host>  Sample options
-  -h, --help     Display this message
-  -v, --version  Display version number
-
-Examples:
-  $ @zce/create-nm w --host zce.me
+$ create-nm <project>
 ```
+
+## Related
+
+- [zce/caz] - A simple yet powerful template-based Scaffolding tools.
+- [caz-templates/nm] - A template for creating node modules.
 
 ## Contributing
 

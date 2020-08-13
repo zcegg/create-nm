@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const cac = require('cac')
-const zceCreateNm = require('..')
+const <%= _.camelCase(name) %> = require('..')
 const { name, version } = require('../package')
 
 // Unified error handling
@@ -21,9 +21,9 @@ const cli = cac(name)
 cli
   .command('<input>', 'Sample cli program')
   .option('--host <host>', 'Sample options')
-  .example(`  $ @zce/create-nm w --host zce.me`)
+  .example(`  $ ${name} w --host zce.me`)
   .action((input, options) => {
-    console.log(zceCreateNm(input, options))
+    console.log(<%= _.camelCase(name) %>(input, options))
   })
 
 cli.help().version(version).parse()

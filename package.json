@@ -1,47 +1,53 @@
 {
   "name": "@zce/create-nm",
   "version": "0.1.0",
-  "description": "A scaffolding tool for generating node modules.",
+  "private": true,
+  "description": "A scaffolding tools for creating node modules.",
   "keywords": [
-    "@zce/create-nm",
-    "cli",
+    "module",
+    "node",
+    "zce",
+    "caz",
     "zce"
   ],
-  "homepage": "https://github.com/zce/@zce/create-nm#readme",
-  "bugs": {
-    "url": "https://github.com/zce/@zce/create-nm/issues"
-  },
+  "repository": "zce/nm",
   "license": "MIT",
-  "author": {
-    "name": "zce",
-    "email": "w@zce.me",
-    "url": "https://zce.me"
-  },
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "main": "index.js",
+  "bin": "cli.js",
   "files": [
-    "bin",
-    "lib"
+    "template"
   ],
-  "main": "lib/index.js",
-  "bin": "bin/@zce/create-nm.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zce/@zce/create-nm.git"
-  },
   "scripts": {
-    "test": "standard --fix"
+    "test": "standard --fix && jest"
+  },
+  "jest": {
+    "testTimeout": 30000,
+    "modulePathIgnorePatterns": [
+      "<rootDir>/template"
+    ]
   },
   "renovate": {
     "extends": [
       "zce"
+    ],
+    "ignorePaths": [
+      "template"
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": [
+      "template"
     ]
   },
   "dependencies": {
-    "cac": "^6.6.1"
+    "caz": "0.1.1"
   },
   "devDependencies": {
-    "standard": "^14.3.4"
-  },
-  "engines": {
-    "node": ">=10"
+    "jest": "26.4.0",
+    "standard": "14.3.4"
   }
 }
