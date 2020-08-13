@@ -50,6 +50,7 @@
     "standard": "14.3.4"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   }
 }
