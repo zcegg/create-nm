@@ -9,7 +9,7 @@
     "caz",
     "zce"
   ],
-  "repository": "zce/nm",
+  "repository": "zce/create-nm",
   "license": "MIT",
   "author": "zce <w@zce.me> (https://zce.me)",
   "main": "index.js",
